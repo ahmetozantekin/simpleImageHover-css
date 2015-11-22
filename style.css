@@ -1,0 +1,39 @@
+body,html{
+  background:#F0E3CE;
+}
+#box {
+  width: 300px;
+  height: 500px;
+  background: url(https://s-media-cache-ak0.pinimg.com/736x/50/dd/97/50dd97e1e5b63e3e9d004c26bf3fca3c.jpg);
+  background-size: cover;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+#overlay {
+  background: rgba(0, 0, 0, 0.70);
+  text-align: center;
+  padding: 45px 0 66px 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.50s ease;
+  -moz-transition: opacity 0.50s ease;
+}
+
+#overlay a {
+  text-decoration: none;
+}
+
+#box:hover #overlay {
+  opacity: 1;
+}
+
+#add {
+  font-family: Helvetica;
+  font-weight: 600;
+  color: #ecf0f1;
+  font-size: 350px;
+  opacity:0.3;
+}
+#add:hover{
+  opacity:1;
+}
